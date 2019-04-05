@@ -1,0 +1,14 @@
+<script>
+    const baseurl = 'http://imsai:8080/send?c=';
+
+    function ajax(command) {
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET", baseurl+command, true);
+        xhttp.send();
+    }
+</script>
+
+<ul>
+    <li><a href="#" onclick="ajax('Hello World!')">Hello World!</a></li>
+    <li><a href="#" onclick="ajax('.local list')">.local list</a></li>
+</ul>
