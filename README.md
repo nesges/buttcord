@@ -11,6 +11,8 @@ every COMMAND you send to :8080/send?c=COMMAND is forwarded to the discord chann
 ## installation
 buttcord uses nodejs and is tested on debian 9 only
 ```
+git clone https://github.com/nesges/buttcord.git
+cd buttcord
 npm install discord.js
 npm install node-rest-server
 export BUTTCORDTOKEN=<USERTOKEN>
