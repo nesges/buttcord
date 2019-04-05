@@ -6,6 +6,8 @@
 
 every COMMAND you send to :8080/send?c=COMMAND is forwarded to the discord channel env.BUTTCORDCHANNEL using a user account. since most bots will ignore commands from botaccounts, it's important to use the token of an actual user
 
+(*buttcord only provides the rest-server, not the whole user interface like shown in the screenshot*)
+
 ## installation
 buttcord uses nodejs and is tested on debian 9 only
 ```
