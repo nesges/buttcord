@@ -15,6 +15,7 @@ npm install discord.js
 npm install node-rest-server
 export BUTTCORDTOKEN=<USERTOKEN>
 export BUTTCORDCHANNEL=<CHANNELID>
+node buttcord.js
 ```
 
 * How to find your token: https://discordhelp.net/discord-token
